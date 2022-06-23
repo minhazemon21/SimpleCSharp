@@ -7,11 +7,15 @@ namespace SimpleCSharp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine("Emon Is Here");
+            var i = 0;
+            for(i=0; i<=10;i++)
+            {
+                Console.WriteLine("Emon Is Here");
 
-            
-            
-            
+            }
+
+
+
         }
     }
 }
