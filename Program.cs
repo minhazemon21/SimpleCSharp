@@ -16,8 +16,12 @@ namespace SimpleCSharp
             }
 
             Program myobject = new Program();
-            Console.WriteLine(myobject.color);
-            
+            for(i=0; i<=10; i++)
+            {
+                Console.WriteLine(myobject.color);
+
+            }
+
 
 
         }
