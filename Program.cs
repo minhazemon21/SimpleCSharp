@@ -4,6 +4,7 @@ namespace SimpleCSharp
 {
     class Program
     {
+        string color = "red";
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
@@ -14,8 +15,12 @@ namespace SimpleCSharp
 
             }
 
+            Program myobject = new Program();
+            Console.WriteLine(myobject.color);
+            
 
 
         }
     }
+
 }
