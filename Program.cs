@@ -22,6 +22,11 @@ namespace SimpleCSharp
 
             }
 
+            Console.WriteLine("Take input from user");
+            string userName = Console.ReadLine();
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Your Information is: " + userName + "My age is: " + age);
+
 
 
         }
