@@ -49,7 +49,10 @@ namespace SimpleCSharp
             int k = ++a;
             Console.WriteLine("Incriment Is: " + k);
 
-
+            Console.WriteLine("Minimum value " + Math.Min(a, b));
+            Console.WriteLine("Absulate vale " + Math.Abs(-105));
+            Console.WriteLine("Square value " + Math.Sqrt(a));
+            Console.WriteLine("Round value " + Math.Round(15.32));
 
 
         }
