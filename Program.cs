@@ -46,6 +46,8 @@ namespace SimpleCSharp
             Console.WriteLine("Incriment Is: " + h);
             int j = --b;
             Console.WriteLine("Decrement Is: " + j);
+            int k = ++a;
+            Console.WriteLine("Incriment Is: " + k);
 
 
 
