@@ -37,7 +37,15 @@ namespace SimpleCSharp
             int d = a - b;
             Console.WriteLine("Subtraction Is: " + d);
             int e = a * b;
-            Console.WriteLine("Multiple Is: " + e);
+            Console.WriteLine("Multiplication Is: " + e);
+            int f = a / b;
+            Console.WriteLine("Division Is: " + f);
+            int g = a % b;
+            Console.WriteLine("Modulus Is: " + g);
+            int h = a++;
+            Console.WriteLine("Incriment Is: " + h);
+            int j = --b;
+            Console.WriteLine("Decrement Is: " + j);
 
 
 
