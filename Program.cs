@@ -22,10 +22,23 @@ namespace SimpleCSharp
 
             }
 
-            Console.WriteLine("Take input from user");
+            Console.WriteLine("What is your Name: ");
             string userName = Console.ReadLine();
+            Console.WriteLine("Your Age: ");
             int age = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Your Information is: " + userName + "My age is: " + age);
+
+
+            Console.WriteLine("Calculator");
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+            int c = a + b;
+            Console.WriteLine("Addition Is: " + c);
+            int d = a - b;
+            Console.WriteLine("Subtraction Is: " + d);
+            int e = a * b;
+            Console.WriteLine("Multiple Is: " + e);
+
 
 
 
